@@ -185,6 +185,8 @@
             text == "voted to GROW" ||
             text == "voted to ABANDON" ||
             text.indexOf("Autovoter") > -1 ||
+            text.indexOf("Math time!!") > -1 ||
+            text.indexOf("╠═══╣Lets build a ladder╠═══╣") > -1 ||
             /* Detects unicode spam - Credit to travelton
              * https://gist.github.com/travelton */
             (/[\u0080-\uFFFF]/.test(text));
